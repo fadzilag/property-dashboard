@@ -5,7 +5,7 @@ import numpy as np
 
 # Page configuration for mobile-friendly view
 st.set_page_config(
-    page_title="Property Market Showcase Dashboard",
+    page_title="Industry Real Estate Showcase Dashboard",
     page_icon="🏢",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -29,7 +29,7 @@ def load_data():
 df = load_data()
 
 # App Title & Header
-st.title("🏢 Property Market Analytics Dashboard")
+st.title("🏢 Industry Real Estate Analytics Dashboard")
 st.caption("Interactive Showcase | Scan QR to explore market insights")
 
 # Sidebar Filters
